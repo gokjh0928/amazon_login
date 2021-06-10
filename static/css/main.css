@@ -1,3 +1,7 @@
+a {
+    color: #0066c0;
+}
+
 img {
     width: 200px;
 }
@@ -12,29 +16,33 @@ footer {
 
 
 #btn-inner {
-    background-color: #F0C14C;
-    border-color: #E9BC48;
-    border-width: 2px;
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    border-width: 1px;
+    border-radius: 3px;
     margin: 25px auto;
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+    box-shadow: 0 1px 0 rgba(255,255,255,.6) inset;
 }
 
 #btn-outer {
-    background-color: #E8E9EC;
+    background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+    box-shadow: 0 1px 0 rgba(255,255,255,.6) inset;
     border-color: #CCCFD3;
-    border-width: 2px;
+    border-width: 1px;
     margin-bottom: 20%;
 }
 
 .container {
     border-style: solid;
-    border-color: #ECECEC;
+    border-color: #ddd;
     border-width: 1px;
     border-radius: 5px;
     padding: 20px 15px 12px;
 }
 
 .btn {
-    color: black;
+    color: #111;
 }
 
 .footer-link {
